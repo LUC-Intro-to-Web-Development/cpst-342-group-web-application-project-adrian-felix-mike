@@ -29,18 +29,26 @@ let lookUpUser = (userName, res) => {
 
 }
 
+
+
 // Display Medication Details
 let getAllAndRender = (userID, res) => {
     var medTableName = "medTableID" + userID;
     var query = "SELECT * from " + medTableName;
-    db.all(query, (err, rows) => {
+    db.all(query, (err, rows_1) => {
         if (err) {
             console.error(err.message)
             throw err
         }
         
-        var params = {userID: userID, rows: rows};
-        res.render('dashboard.hbs', params);
+        var params = {userID: userID, rows: rows_1};
+        var getUserInfo = "SELECT * from userInfo WHERE userID = ?";
+        db.get(getUserInfo, userID, (err, row) => {
+            console.log(row);
+            res.render('dashboard.hbs', Object.assign(params, row))
+
+        })
+        
     
     })
 

@@ -12,7 +12,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="medicine-1325116.jpg" alt="picture of pills">
+                    <img class="img-thumbnail"src="medicine-1325116.jpg" alt="picture of pills">
                 </div>
                 <div class="col-sm-8">
                     <h1>Welcome to your medical record!</h1>
@@ -20,7 +20,10 @@
                     <form action="/authenticate" method="POST">
                         <input type="text" name="userName" class="form-control" placeholder="User Name" size="40"><br>
                         <input type='text' name='password' class="form-control" placeholder="Password" size="40"><br>
-                        <input type="submit" class="btn btn-primary" value="submit">
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                    </form>
+                    <form action="/createAccount" method="GET">
+                        <button class="btn btn-primary" type="submit">Create Account</button>
                     </form>
                 </div>
             </div>
