@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12688007&assignment_repo_type=AssignmentRepo)
 # CPST 342 Group Project Repository 
 
 You will complete three assignments that will culminate in developing a monolithic full-stack web application. 
@@ -22,14 +23,31 @@ After this course, your application will consist of the following components lis
 ### Deliverable 1 (10 Points)
 For this deliverable, you will need to modify the readme file and add responses to the questions below. that you are currently reading and address the following items below using a variety of permissible markdown syntax.
 
-- Provide your name or the team's name
-- Name of the application
-- Description of application *Describe how someone will use your application
-- Describe the need and purpose of the application
-- Intended target audience
-- Identify the various pages your application will have and describe what users will be able to accomplish
-- Identify three goals of the application
-- Identify tools/software you will use to complete the project. 
+- Provide your name or the team's name  
+Michael Dreis, Felix Oke, Adrian Loredo.
+- Name of the application  
+Either ListaMedica or Medcord
+- Description of application *Describe how someone will use your application  
+This app will allow users to create an account and then they can enter/delete their medical problems, allergies, medications, doctors, etc.
+- Describe the need and purpose of the application  
+For those who want to have easy fast access to their Medical and Health information. It allows users to maintain and manage their personal health information as well as save personal medical data.
+- Intended target audience  
+Users who want to keep all their health and medical information all together in one place, as well as those who frequently have Doctor visits or need  medicine prescriptions. This could include patients, healthcare professionals, caregivers, ill people and the genral public.
+- Identify the various pages your application will have and describe what users will be able to accomplish  
+  * Create account page: User creates an account.  
+  * Medical history page: this will allow user to put in how they have been treated.  
+  * Medications: Users put in/delete medications they're taking.  
+  * Doctors: Users can  put in/delete their doctors information, how to contact, summaries and other notes.  
+  * Personal and Health Information: Users can put it/delete Personal information if they have health problems and allergies.
+  * Messages: users can use this as electronic conversations asynchronously.
+- Identify three goals of the application  
+  1. User experience. Should be easy to use and understand.  
+  2. Offer value. Should solve a problem and meet a need that users have.  
+  3. Be tested. Should be tested to ensure that it works as intended and is free of bugs.
+- Identify tools/software you will use to complete the project.
+  1. [GitHub Codespaces](https://github.com/features/codespaces)
+  2. express module
+  3. SQL database
 * I suggest using an online coding environment that will allow your team to work collaboratively and practice git commands.  A few are listed below.
    - [CodeSandbox.io](https://codesandbox.io/)
    - [Replit.com](https://replit.com/)
