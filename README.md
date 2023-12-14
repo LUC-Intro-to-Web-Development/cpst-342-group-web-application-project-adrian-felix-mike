@@ -114,7 +114,10 @@ Heroku - [https://www.heroku.com](https://www.heroku.com/) 
 Only one member of your team will need to create an account. 
 Heroku will need to be configured to host your site from the GitHub repository issued by the instructor. 
 
-Update the repository Readme file to include the URL from Heroku
+Update the repository Readme file to include the URL from Heroku:
+
+https://medrecordcomp342-e58bfc6e0f56.herokuapp.com/
+
 
 
 ### Extra Credit – Implementing Authentication + Authorization using Passport.js or AuthO (7 Extra Credit Points)
